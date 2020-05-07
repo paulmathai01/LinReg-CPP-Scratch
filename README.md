@@ -2,7 +2,7 @@
 
 The project examines the procedure of assembling a Graphical User Interface using C++ programming in Visual Studio 2019 to develop and showcase linear regression and nonlinear regression models using functions that calculate various terms and compute arrays. The methods used include creating a class, defining private and public function variables, setting properties of elements, implementation of functions, and testing &amp; debugging. The results include linear regression and nonlinear regression plots on the graphical user interface.
 
-**Introduction
+**Introduction**
 
 Object oriented programming in C++ is a programming style that is associated with the concept of Class, Objects, and other types of concepts revolving around these two. The goal of OOP is to combine together the data and the functions that operate on them so that no other part of code can access this data except for that specific function. Compiler languages can be used anywhere, increasingly in robotics, where it can be used in control loops, image processing, and to interface low-level hardware.
 
@@ -15,7 +15,7 @@ In this project, I will be focusing mostly on class and objects to create regres
 
 Upon completion of this project, it will be evident that the use of functions to do calculations, as well as loops, will be beneficial when used in Graphical User Interface because it can plot models by using tools that make the process simpler.
 
-**Software
+**Software**
 
 The software being used is Visual Studio 2019. Visual Studio 2019 is an integrated development environment from Microsoft. It&#39;s used to develop computer programs, and it consists of built-in languages including C++ and contains a directory with C++/CLI which can be used to create a Graphical User Interface (GUI). The C++/CLI specification is used to write managed code, and mixed-mode code (native and managed code mixed). Native code is a computer programming code that is compiled to run with a particular processor, and it&#39;s set of instructions, whereas a managed code is a computer program code that requires the management of a virtual machine, run time, or framework. In this project, managed code will be used.
 
@@ -23,7 +23,7 @@ It also includes a code editor that supports syntax highlighting and code comple
 
 Visual Studio includes a host of visual designers to aid in the development of applications, for this project, Visual C++ uses designer to design a UI graphically. Tools such as object browser and data explorer are used, too.
 
-**Methods
+**Methods**
 
 During this project, I built the linear and nonlinear regression models by doing the following:
 
@@ -71,7 +71,7 @@ It is necessary to state that the following decisions were made:
 - The standard strings were converted to system strings in both regression models to output text in the textbox.
 
 
-**Results
+**Results**
 
 The linear regression and nonlinear regression models were plotted. Debugging was performed after each step to ensure that all errors were solved for the overall regression functions.
 
