@@ -1,8 +1,8 @@
-Abstract
+**Abstract**
 
 The project examines the procedure of assembling a Graphical User Interface using C++ programming in Visual Studio 2019 to develop and showcase linear regression and nonlinear regression models using functions that calculate various terms and compute arrays. The methods used include creating a class, defining private and public function variables, setting properties of elements, implementation of functions, and testing &amp; debugging. The results include linear regression and nonlinear regression plots on the graphical user interface.
 
-Introduction
+**Introduction
 
 Object oriented programming in C++ is a programming style that is associated with the concept of Class, Objects, and other types of concepts revolving around these two. The goal of OOP is to combine together the data and the functions that operate on them so that no other part of code can access this data except for that specific function. Compiler languages can be used anywhere, increasingly in robotics, where it can be used in control loops, image processing, and to interface low-level hardware.
 
@@ -15,7 +15,7 @@ In this project, I will be focusing mostly on class and objects to create regres
 
 Upon completion of this project, it will be evident that the use of functions to do calculations, as well as loops, will be beneficial when used in Graphical User Interface because it can plot models by using tools that make the process simpler.
 
-Software
+**Software
 
 The software being used is Visual Studio 2019. Visual Studio 2019 is an integrated development environment from Microsoft. It&#39;s used to develop computer programs, and it consists of built-in languages including C++ and contains a directory with C++/CLI which can be used to create a Graphical User Interface (GUI). The C++/CLI specification is used to write managed code, and mixed-mode code (native and managed code mixed). Native code is a computer programming code that is compiled to run with a particular processor, and it&#39;s set of instructions, whereas a managed code is a computer program code that requires the management of a virtual machine, run time, or framework. In this project, managed code will be used.
 
@@ -23,44 +23,34 @@ It also includes a code editor that supports syntax highlighting and code comple
 
 Visual Studio includes a host of visual designers to aid in the development of applications, for this project, Visual C++ uses designer to design a UI graphically. Tools such as object browser and data explorer are used, too.
 
-Methods
+**Methods
 
 During this project, I built the linear and nonlinear regression models by doing the following:
 
-1. Create windows forms, by the default project format. Creates a blank form to add buttons, rename them, add chart.
+Create windows forms, by the default project format. Creates a blank form to add buttons, rename them, add chart.
 
-1. Set the properties of the elements in the form (includes color, type of graph, size of boxes/buttons, legend for graph).
+Set the properties of the elements in the form (includes color, type of graph, size of boxes/buttons, legend for graph).
 
-![](RackMultipart20200507-4-180inre_html_1d8dec7ce317a9d.jpg)
+For this step, I tested with adding multiple plots on same graph and tried doing that on separate graphs
 
-_Testing &amp; Debugging_: For this step, I tested with adding multiple plots on same graph and tried doing that on separate graphs
+Create a class for linear regression.
+Define all private and public member variables including all accessors &amp; mutators.
 
-1. Create a class for linear regression.
-  - Define all private and public member variables including all accessors &amp; mutators.
 
-![](RackMultipart20200507-4-180inre_html_4167f9d32524a32b.jpg)
+I tested this by making a console application, obtaining values, and cross-checking with pretrained values. Additionally, I fixed the scope and data extraction issues by rearranging the class.
 
-_Test &amp; debugging_: I tested this by making a console application, obtaining values, and cross-checking with pretrained values. Additionally, I fixed the scope and data extraction issues by rearranging the class.
+Define and implement functions using linear regression formulas and find predicted y.
 
-1. Define and implement functions using linear regression formulas and find predicted y.
 
-![](RackMultipart20200507-4-180inre_html_a68e66dca00de65d.jpg)
+Again, I tested by making a console application and cross-checking with pretrained values, but this time I did it for the whole linear regression model.
 
-_Testing &amp; debugging_: Again, I tested by making a console application and cross-checking with pretrained values, but this time I did it for the whole linear regression model.
+The Open File button takes in file path and takes input into member variables.
 
-1. The Open File button takes in file path and takes input into member variables.
+I then moved on to my nonlinear model. First, I created a class for non-linear.
 
-![](RackMultipart20200507-4-180inre_html_731a70a052eb616d.jpg)
 
-_This plots the linear regression line along with the original data when you click on the &quot;Calculate Lin\_Reg&quot; button._
+The same steps are used for the non-linear regression model, but the difference is the slope function which first calculates linear regression, and then converts it to the exponential form.
 
-1. I then moved on to my nonlinear model. First, I created a class for non-linear.
-
-![](RackMultipart20200507-4-180inre_html_63adb0119cf7b1c1.jpg)
-
-1. The same steps are used for the non-linear regression model, but the difference is the slope function which first calculates linear regression, and then converts it to the exponential form.
-
-![](RackMultipart20200507-4-180inre_html_17f022538553d839.jpg)
 
 - Integration of the GUI and classes.
 - Declare object of both classes inside forms1.h
@@ -81,7 +71,7 @@ It is necessary to state that the following decisions were made:
 - The standard strings were converted to system strings in both regression models to output text in the textbox.
 
 
-Results
+**Results
 
 The linear regression and nonlinear regression models were plotted. Debugging was performed after each step to ensure that all errors were solved for the overall regression functions.
 
