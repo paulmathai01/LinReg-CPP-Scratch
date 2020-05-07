@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://github.com/paulmathai01/LinReg-CPP-Scratch/blob/master/Picture%201.png" /></div>
+
 ![UI](https://github.com/paulmathai01/LinReg-CPP-Scratch/blob/master/Picture%201.png)
 <br>
 **Abstract**
