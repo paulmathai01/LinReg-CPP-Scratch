@@ -1,3 +1,4 @@
+![UI](Picture1.png)
 **Abstract**
 
 The project examines the procedure of assembling a Graphical User Interface using C++ programming in Visual Studio 2019 to develop and showcase linear regression and nonlinear regression models using functions that calculate various terms and compute arrays. The methods used include creating a class, defining private and public function variables, setting properties of elements, implementation of functions, and testing &amp; debugging. The results include linear regression and nonlinear regression plots on the graphical user interface.
