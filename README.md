@@ -1,5 +1,5 @@
 
-![UI](https://github.com/paulmathai01/LinReg-CPP-Scratch/blob/master/Picture%201.png)
+<span style="display:block;text-align:center">![UI](https://github.com/paulmathai01/LinReg-CPP-Scratch/blob/master/Picture%201.png)</span>
 <br>
 **Abstract**
 
