@@ -57,7 +57,6 @@ The same steps are used for the non-linear regression model, but the difference 
 - Create functions for button clicks
 - Put data points of the chart when button is clicked (inside the function)
 
-_Testing &amp; Debugging will be done using the same methods for non-linear regression, as well._
 
 1. First button click is the open File button. This Calls the openFile functions in the classes with the file path and checks if it&#39;s open.
   - Calculate slope, calls function, outputs value into multiline text box. Checks if file is open or not.
