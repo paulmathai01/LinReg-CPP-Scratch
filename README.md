@@ -48,7 +48,6 @@ The Open File button takes in file path and takes input into member variables.
 
 I then moved on to my nonlinear model. First, I created a class for non-linear.
 
-
 The same steps are used for the non-linear regression model, but the difference is the slope function which first calculates linear regression, and then converts it to the exponential form.
 
 
@@ -58,7 +57,7 @@ The same steps are used for the non-linear regression model, but the difference 
 - Put data points of the chart when button is clicked (inside the function)
 
 
-1. First button click is the open File button. This Calls the openFile functions in the classes with the file path and checks if it&#39;s open.
+First button click is the open File button. This Calls the openFile functions in the classes with the file path and checks if it&#39;s open.
   - Calculate slope, calls function, outputs value into multiline text box. Checks if file is open or not.
 
 
